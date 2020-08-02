@@ -1,0 +1,7 @@
+#Write Your Code Here
+charge=50
+for i in events:
+ charge=charge+i
+ if charge>100:
+    charge=100
+return charge
